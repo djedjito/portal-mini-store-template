@@ -180,7 +180,7 @@ importers:
         specifier: ^3.25.64
         version: 3.25.64
     devDependencies:
-      '@dyad-sh/nextjs-webpack-component-tagger':
+      '@djedjito/nextjs-webpack-component-tagger':
         specifier: ^0.8.0
         version: 0.8.0(webpack@5.99.9(esbuild@0.25.8))
       '@eslint/eslintrc':
@@ -309,7 +309,7 @@ packages:
   '@drizzle-team/brocli@0.10.2':
     resolution: {integrity: sha512-z33Il7l5dKjUgGULTqBsQBQwckHh5AbIuxhdsIxDDiZAzBOrZO6q9ogcWC65kU382AfynTfgNumVcNIjuIua6w==}
 
-  '@dyad-sh/nextjs-webpack-component-tagger@0.8.0':
+  '@djedjito/nextjs-webpack-component-tagger@0.8.0':
     resolution: {integrity: sha512-gWG2jdC9+f2fzlxBH4jrUunHObTgfNR1a6YZv9xHuTSC+IQmEtNKIYO220LViQv/Enjnr6xWdRHLcoaAxSZXgg==}
     peerDependencies:
       webpack: ^5.0.0
@@ -5053,7 +5053,7 @@ snapshots:
 
   '@drizzle-team/brocli@0.10.2': {}
 
-  '@dyad-sh/nextjs-webpack-component-tagger@0.8.0(webpack@5.99.9(esbuild@0.25.8))':
+  '@djedjito/nextjs-webpack-component-tagger@0.8.0(webpack@5.99.9(esbuild@0.25.8))':
     dependencies:
       '@babel/parser': 7.27.5
       estree-walker: 2.0.2

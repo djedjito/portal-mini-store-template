@@ -33,7 +33,7 @@ export function SiteHeader({
               <div className="absolute inset-0 bg-gradient-to-r from-amber-300 to-rose-300 rounded-full blur-lg opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-600 via-rose-500 to-amber-600 bg-clip-text text-transparent tracking-tight">
-              Dyad Snacks
+              djedjito store
             </h1>
           </Link>
 
@@ -77,7 +77,7 @@ export function SiteHeader({
   return (
     <div className={`text-center ${className}`}>
       <Link href="/" className="text-2xl font-bold text-red-600">
-        🍿 Dyad Snacks
+        djedjito store
       </Link>
       {title && <h2 className="mt-6 text-3xl font-bold text-gray-900">{title}</h2>}
       {subtitle && <div className="mt-2 text-sm text-gray-600">{subtitle}</div>}
