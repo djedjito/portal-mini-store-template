@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
         test: /\.(jsx|tsx)$/,
         exclude: /node_modules/,
         enforce: 'pre',
-        use: '@djedjito/nextjs-webpack-component-tagger',
+        use: '@dyad-sh/nextjs-webpack-component-tagger',
       })
     }
     return config
